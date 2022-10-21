@@ -1,0 +1,33 @@
+/* Slider */
+
+.carousel-inner, .carousel-item {
+    height: 100vh;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 auto;
+    right: auto;
+    bottom: auto;
+  }
+
+  /*brands*/
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .box {
+    background-color: #eff2f5;
+  }
+  footer{
+    background-color: #dfe2e5;
+  }
